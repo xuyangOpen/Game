@@ -1,0 +1,108 @@
+<Solution>
+  <PropertyGroup Name="JumpHero" Version="2.2.6.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="HelloWorld.png" />
+        <Folder Name="fonts">
+          <TTF Name="FontFelt.ttf" />
+          <File Name="TypoGroteskBlack.otf" />
+        </Folder>
+        <Folder Name="sound">
+          <Audio Name="bg_0.mp3" />
+          <Audio Name="bg_1.wav" />
+          <Audio Name="bg_2.mp3" />
+          <Audio Name="bg_3.mp3" />
+          <Audio Name="button.mp3" />
+          <Audio Name="dead.wav" />
+          <Audio Name="fall.wav" />
+          <Audio Name="kick.wav" />
+          <Audio Name="score.mp3" />
+          <Audio Name="sound-bump.mp3" />
+          <Audio Name="sound-button.mp3" />
+          <Audio Name="sound-coin.mp3" />
+          <Audio Name="sound-jump.mp3" />
+          <Audio Name="stick_fallen.wav" />
+          <Audio Name="stick_grow_loop.wav" />
+          <Audio Name="victory.wav" />
+        </Folder>
+        <Folder Name="texture">
+          <PlistImageFolder Image="kick.png" PListFile="kick.plist" Name=".kick_PList.Dir">
+            <PlistImageFile Name="t0001.png" Key="t0001.png" />
+            <PlistImageFile Name="t0002.png" Key="t0002.png" />
+            <PlistImageFile Name="t0003.png" Key="t0003.png" />
+            <PlistImageFile Name="t0004.png" Key="t0004.png" />
+            <PlistImageFile Name="t0005.png" Key="t0005.png" />
+            <PlistImageFile Name="t0006.png" Key="t0006.png" />
+            <PlistImageFile Name="t0007.png" Key="t0007.png" />
+            <PlistImageFile Name="t0008.png" Key="t0008.png" />
+            <PlistImageFile Name="t0009.png" Key="t0009.png" />
+          </PlistImageFolder>
+          <File Name="MainScene.json" />
+          <PlistImageFolder Image="shake.png" PListFile="shake.plist" Name=".shake_PList.Dir">
+            <PlistImageFile Name="dq0001.png" Key="dq0001.png" />
+            <PlistImageFile Name="dq0002.png" Key="dq0002.png" />
+            <PlistImageFile Name="dq0003.png" Key="dq0003.png" />
+            <PlistImageFile Name="dq0004.png" Key="dq0004.png" />
+            <PlistImageFile Name="dq0005.png" Key="dq0005.png" />
+            <PlistImageFile Name="dq0006.png" Key="dq0006.png" />
+            <PlistImageFile Name="dq0007.png" Key="dq0007.png" />
+            <PlistImageFile Name="dq0008.png" Key="dq0008.png" />
+            <PlistImageFile Name="dq0009.png" Key="dq0009.png" />
+          </PlistImageFolder>
+          <File Name="upack_list.py" />
+          <PlistImageFolder Image="walk.png" PListFile="walk.plist" Name=".walk_PList.Dir">
+            <PlistImageFile Name="z0001.png" Key="z0001.png" />
+            <PlistImageFile Name="z0002.png" Key="z0002.png" />
+            <PlistImageFile Name="z0003.png" Key="z0003.png" />
+            <PlistImageFile Name="z0004.png" Key="z0004.png" />
+            <PlistImageFile Name="z0005.png" Key="z0005.png" />
+            <PlistImageFile Name="z0006.png" Key="z0006.png" />
+            <PlistImageFile Name="z0007.png" Key="z0007.png" />
+            <PlistImageFile Name="z0008.png" Key="z0008.png" />
+            <PlistImageFile Name="z0009.png" Key="z0009.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="yao.png" PListFile="yao.plist" Name=".yao_PList.Dir">
+            <PlistImageFile Name="d0001.png" Key="d0001.png" />
+            <PlistImageFile Name="d0002.png" Key="d0002.png" />
+            <PlistImageFile Name="d0003.png" Key="d0003.png" />
+            <PlistImageFile Name="d0004.png" Key="d0004.png" />
+            <PlistImageFile Name="d0005.png" Key="d0005.png" />
+            <PlistImageFile Name="d0006.png" Key="d0006.png" />
+            <PlistImageFile Name="d0007.png" Key="d0007.png" />
+            <PlistImageFile Name="d0008.png" Key="d0008.png" />
+            <PlistImageFile Name="d0009.png" Key="d0009.png" />
+          </PlistImageFolder>
+          <Image Name="arrow.png" />
+          <Image Name="background0.png" />
+          <Image Name="background1.png" />
+          <Image Name="background2.png" />
+          <Image Name="background3.png" />
+          <Image Name="guide_text.png" />
+          <Image Name="HelloWorld.png" />
+          <Image Name="laudai1.png" />
+          <Image Name="laudai2.png" />
+          <Image Name="mattroi1.png" />
+          <Image Name="mattroi2.png" />
+          <Image Name="mattroi3.png" />
+          <Image Name="notify.png" />
+          <Image Name="overSoreBg.png" />
+          <Image Name="redsig.png" />
+          <Image Name="scoreBg.png" />
+          <Image Name="shuaxin.png" />
+          <Image Name="start_normal.png" />
+          <Image Name="start_select.png" />
+          <Image Name="stick_black.png" />
+          <Image Name="zhuye.png" />
+          <Image Name="btn_gameCenter.png" />
+          <Image Name="btn_home.png" />
+          <Image Name="btn_rate.png" />
+          <Image Name="btn_share.png" />
+          <Image Name="btn_replay.png" />
+        </Folder>
+        <Project Name="GameOverLayer.csd" Type="Layer" />
+        <Project Name="ScoreLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
